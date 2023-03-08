@@ -1,0 +1,59 @@
+// TODO figure out why 'variables' doesn't work here
+
+// VARIABLES
+@use './variables/colors' as *;
+@use './variables/typography' as *;
+// COMPONENTS
+@use './components/Nav' as *;
+
+// @use 'components';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+    &:focus{
+        border: 3px solid $action-color;
+    }
+}
+
+body{
+    color: $text-color;
+    font-family: $font-family;
+    font-size: $font-size;
+    text-align: center;
+    background-color: $primary-color;
+}
+
+header{
+    background-color: $accent-color;
+}
+
+section{
+    margin: 40px 0;
+}
+
+#about p{
+    width: 80%;
+    margin: auto;
+    max-width: 800px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-evenly;
+
+    article{
+        width: 30%;
+        max-width: 500px;
+    }
+}
+
+#contact{
+    label, input, textarea{
+        display: block;
+        margin: auto;
+        width: 80%;
+        max-width: 1000px;
+    }
+}
