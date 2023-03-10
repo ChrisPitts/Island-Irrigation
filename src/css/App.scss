@@ -1,10 +1,6 @@
-// TODO figure out why 'variables' doesn't work here
+@use 'variables' as *;
+@use 'components' as *;
 
-// VARIABLES
-@use './variables/colors' as *;
-@use './variables/typography' as *;
-// COMPONENTS
-@use './components/Nav' as *;
 
 // @use 'components';
 

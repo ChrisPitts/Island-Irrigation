@@ -1,0 +1,19 @@
+// VARIABLES
+@use '../variables/colors' as *;
+@use '../variables/typography' as *;
+
+.carousel {
+    width: 800px;
+    height: 700px;
+    position: relative;
+    margin: auto;
+	img {
+        position: absolute;
+		max-width: 800px;
+		max-height: 700px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: opacity 0.5s ease-in-out;
+	}
+}
