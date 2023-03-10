@@ -1,16 +1,15 @@
 // VARIABLES
-@use '../variables/colors' as *;
-@use '../variables/typography' as *;
+@use '../variables' as *;
 
 .carousel {
-    width: 800px;
-    height: 700px;
+    max-width: 800px;
+    aspect-ratio: 8/7;
+    width: 90%;
     position: relative;
     margin: auto;
 	img {
         position: absolute;
-		max-width: 800px;
-		max-height: 700px;
+		max-width: 100%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
