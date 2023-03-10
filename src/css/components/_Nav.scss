@@ -1,11 +1,9 @@
 @use '../variables' as *;
 
 nav {
-	padding: 10px;
 
-	img {
-		width: 80px;
-	}
+	width: 100%;
+	
 	ul {
 		align-items: center;
 		display: flex;

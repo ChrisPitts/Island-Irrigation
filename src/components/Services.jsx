@@ -7,7 +7,7 @@ export default function Services() {
 			<div className='service-container'>
 				<article>
 					<h3>Residential</h3>
-					<img src='https://picsum.photos/200' alt='Logo' />
+					<img src='https://picsum.photos/200' alt='Residential Image' />
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
 						voluptates veniam eveniet quod praesentium debitis beatae
@@ -17,7 +17,7 @@ export default function Services() {
 				</article>
 				<article>
 					<h3>Commercial</h3>
-					<img src='https://picsum.photos/200' alt='Logo' />
+					<img src='https://picsum.photos/200' alt='Commercial Image' />
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
 						voluptates veniam eveniet quod praesentium debitis beatae
@@ -27,7 +27,7 @@ export default function Services() {
 				</article>
 				<article>
 					<h3>Water Collection Systems</h3>
-					<img src='https://picsum.photos/200' alt='Logo' />
+					<img src='https://picsum.photos/200' alt='Water Collection Image' />
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
 						voluptates veniam eveniet quod praesentium debitis beatae

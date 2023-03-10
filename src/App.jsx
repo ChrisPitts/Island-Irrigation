@@ -5,7 +5,9 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import './css/App.scss';
 
-function App() {
+function App()
+{
+	
 	return (
 		<>
 			<header><Nav /></header>

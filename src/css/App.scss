@@ -19,20 +19,37 @@ body{
     font-size: $font-size;
     text-align: center;
     background-color: $primary-color;
-    margin-top: 100px;
+    // margin-top: 100px;
+}
+
+h1, h2{
+    color: $action-color;
 }
 
 header{
+    align-items: center;
     background-color: $accent-color;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
     opacity: 0.8;
+    padding: 10px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
+
+    img {
+		width: 80px;
+	}
 }
 
 section{
-    padding: 40px 0;
+    padding: 120px 0 40px 0;
+    margin-top: -100px;
+}
+
+#hero{
+    margin-top: 0;
 }
 
 #about p{
